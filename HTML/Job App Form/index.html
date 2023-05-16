@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+    <title>Job App Form</title>
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+    </script>
+
+    <div>
+        <form method="post" >
+
+        <div>
+        <label for="name">Name</label> <br>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        </div>
+       
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder="Email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="gender" id="gender" required>Male
+            <input type="radio" name="gender" id="gender" required>Female
+        </div>
+        
+        <div>
+            <label for="laptop">Laptop Brands</label>
+            <select name="laptop" id="laptop" placeholder= "--Please choose an option--" required>
+                <option value="choose">--Please choose an option--</option>
+                <option value="apple">Apple</option>
+                <option value="asus">Asus</option>
+                <option value="hp">HP</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age" placeholder="Age" required>
+        </div>
+
+        <div>
+            <label for="dob">DOB</label> <br>
+            <input type="date" name="dob" id="dob" required>
+        </div>
+        
+        <div>
+            <label for="password">Password</label> <br>
+            <input type="password" name="password" id="password" required placeholder="Password">
+        </div>
+        
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+		<div>
+			<label for="portfolio" >Portfolio</label>
+            <input type="url" name="portfolio" id="portfolio">
+        </div>	
+
+        </form>
+    </div>
+	
+
+</body>
+
+</html>
