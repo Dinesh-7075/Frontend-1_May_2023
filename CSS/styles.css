@@ -1,0 +1,87 @@
+#animal-photos-div{
+   width:1000px;
+   height:800px;
+   border:1px solid black;
+   border-radius: 10px;
+   background-color: grey;
+}
+
+#photo-heading{
+    text-align: center;
+    color: white;
+}
+
+.animal_img {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#bxmodel_div {
+    width:300px;
+    border: 15px solid blue;
+    background-color: lightblue;
+    padding: 50px;
+    margin: 20px;
+}
+
+#testimo-body{
+    background: #f5f5f5;
+}
+
+.testimo-div {
+width:700px;
+background:white;
+border: 1px solid #f5f5f5;
+margin:5px;
+}
+
+.john {
+text-align: right;
+padding-bottom:10px;
+margin-right:20px;
+font-style: italic;
+text-transform: capitalize;
+}
+
+.sen {
+margin-left:20px;
+padding-top:20px;
+}
+
+#testimo-heading {
+background: #f5f5f5;
+}
+
+.pricing_card_div{
+	background:rgba(181, 177, 177, 0.201);
+	height:550px;
+	width:400px;
+    border: 1px solid #f5f5f5;
+    margin-left:35%;
+}
+#pricing_card_img{
+	width:290px;
+	height:225px;
+	padding: 30px 20px 0px 55px
+}
+#pricing_card_h1{
+	text-align: center;
+	padding: none;
+}
+.pricing_card_para{
+	font-size:25px;
+	align-content: center;
+	text-align:center;
+}
+#buyNow_btn{
+	color:white;
+	background-color:rgb(215, 41, 41);
+	border: none;
+	border-radius: 5px;
+	font-size:25px;
+	height:55px;
+	width:150px;
+}
+input[type="range" i] {
+    color:-internal-light-dark(rgb(19, 19, 19), rgb(255, 255, 255));
+}
