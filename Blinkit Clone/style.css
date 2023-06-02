@@ -6,6 +6,17 @@
     box-sizing: border-box;
     font-family: var(--font-family) ;
 }
+.box {
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  }
+  body {
+    margin: 0px;
+    height: 100%;
+  }
 
 /* Header Section */
 header .container{
@@ -92,6 +103,11 @@ header .VerticalDivider {
 }
 .login{
     font-size: 22px;
+    color: var(--color-grey);
+    font-weight: var(--fw-400);
+}
+.login a {
+    text-decoration: none;
     color: var(--color-grey);
     font-weight: var(--fw-400);
 }
