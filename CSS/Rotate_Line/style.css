@@ -1,0 +1,17 @@
+/*  your css code here. If applicable */
+#line {
+	position:absolute;
+	top:25%;
+	left:25%;
+	background-color: black;
+	height:2px;
+	width:200px;
+	animation-name: circularRotation;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+ @keyframes circularRotation{
+	100% {
+		transform:rotate(360deg);
+ }
+ }
